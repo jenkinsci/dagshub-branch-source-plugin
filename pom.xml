@@ -9,11 +9,10 @@
   </parent>
   <groupId>io.jenkins.plugins</groupId>
   <artifactId>dagshub-branch-source</artifactId>
-  <version>0.1</version>
+  <version>${changelist}</version>
   <packaging>hpi</packaging>
   <properties>
-    <revision>0.1</revision>
-    <changelist>-SNAPSHOT</changelist>
+    <changelist>9999-SNAPSHOT</changelist>
     <jenkins.version>2.176.4</jenkins.version>
     <java.level>8</java.level>
     <jersey.version>2.33</jersey.version>
