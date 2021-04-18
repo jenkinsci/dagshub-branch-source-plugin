@@ -4,7 +4,7 @@
 
 [![Discord](https://img.shields.io/discord/698874030052212737)](https://discord.com/invite/9gU36Y6)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![CI](https://github.com/dagshub/dagshub-branch-source-plugin/actions/workflows/build-and-upload-artifact.yml/badge.svg)](https://github.com/DAGsHub/dagshub-branch-source-plugin/actions/workflows/build-and-upload-artifact.yml)
+[![CI](https://img.shields.io/github/checks-status/jenkinsci/dagshub-branch-source-plugin/master)](https://ci.jenkins.io/job/Plugins/job/dagshub-branch-source-plugin/)
 <a href="https://twitter.com/TheRealDAGsHub" title="DAGsHub on Twitter"><img src="https://img.shields.io/twitter/follow/TheRealDAGsHub.svg?style=social"></a>
 
 # DAGsHub Branch Source Jenkins Plugin
@@ -18,17 +18,10 @@ or pull request in your repo, if they have an existing
 [Jenkinsfile](jenkins.io/doc/book/pipeline/jenkinsfile/).
 
 ## Installation
-As of now, this plugin is not yet listed in the official Jenkins plugin repository (we're working on it!).
-
-So, to install it right now, you can: 
-1. Go to the [latest release](https://github.com/dagshub/dagshub-branch-source-plugin/releases).
-1. Download the `dagshub-branch-source.hpi` file from the release assets.
-1. Go to your Jenkins' advanced plugin management screen:  
-   https://your-jenkins-instance/pluginManager/advanced 
-1. Choose the "Upload Plugin" option, upload the hpi file.
+Install from Jenkins Update Center. Go to Jenkins > Configure > Manage Plugins > Available and search for DAGsHub branch source plugin then select Install.
 
 ## Release notes
-[See the Github releases](https://github.com/dagshub/dagshub-branch-source-plugin/releases) for release notes.
+[See the Github releases](https://github.com/jenkinsci/dagshub-branch-source-plugin/releases) for release notes.
 
 ---
 
